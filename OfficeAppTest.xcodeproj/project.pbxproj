@@ -13,6 +13,12 @@
 		AB0F5DE61EDEAF0600F7BAED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB0F5DE51EDEAF0600F7BAED /* Assets.xcassets */; };
 		AB0F5DE91EDEAF0600F7BAED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB0F5DE71EDEAF0600F7BAED /* LaunchScreen.storyboard */; };
 		AB0F5DF41EDEAF0600F7BAED /* OfficeAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F5DF31EDEAF0600F7BAED /* OfficeAppTestTests.swift */; };
+		AB0F5E091EDEB0A400F7BAED /* logInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F5E071EDEB0A400F7BAED /* logInVC.swift */; };
+		AB0F5E0A1EDEB0A400F7BAED /* logInVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0F5E081EDEB0A400F7BAED /* logInVC.xib */; };
+		AB0F5E0D1EDEB0C800F7BAED /* signUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F5E0B1EDEB0C800F7BAED /* signUpVC.swift */; };
+		AB0F5E0E1EDEB0C800F7BAED /* signUpVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0F5E0C1EDEB0C800F7BAED /* signUpVC.xib */; };
+		AB0F5E111EDEB0EB00F7BAED /* homePageVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB0F5E0F1EDEB0EB00F7BAED /* homePageVC.swift */; };
+		AB0F5E121EDEB0EB00F7BAED /* homePageVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB0F5E101EDEB0EB00F7BAED /* homePageVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +34,7 @@
 /* Begin PBXFileReference section */
 		AB0F5DDB1EDEAF0600F7BAED /* OfficeAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OfficeAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0F5DDE1EDEAF0600F7BAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB0F5DE01EDEAF0600F7BAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB0F5DE01EDEAF0600F7BAED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../ViewController.swift; sourceTree = "<group>"; };
 		AB0F5DE31EDEAF0600F7BAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB0F5DE51EDEAF0600F7BAED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB0F5DE81EDEAF0600F7BAED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +42,12 @@
 		AB0F5DEF1EDEAF0600F7BAED /* OfficeAppTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OfficeAppTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB0F5DF31EDEAF0600F7BAED /* OfficeAppTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfficeAppTestTests.swift; sourceTree = "<group>"; };
 		AB0F5DF51EDEAF0600F7BAED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB0F5E071EDEB0A400F7BAED /* logInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = logInVC.swift; sourceTree = "<group>"; };
+		AB0F5E081EDEB0A400F7BAED /* logInVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = logInVC.xib; sourceTree = "<group>"; };
+		AB0F5E0B1EDEB0C800F7BAED /* signUpVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = signUpVC.swift; sourceTree = "<group>"; };
+		AB0F5E0C1EDEB0C800F7BAED /* signUpVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = signUpVC.xib; sourceTree = "<group>"; };
+		AB0F5E0F1EDEB0EB00F7BAED /* homePageVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = homePageVC.swift; sourceTree = "<group>"; };
+		AB0F5E101EDEB0EB00F7BAED /* homePageVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = homePageVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,11 +89,13 @@
 		AB0F5DDD1EDEAF0600F7BAED /* OfficeAppTest */ = {
 			isa = PBXGroup;
 			children = (
+				AB0F5E041EDEB03A00F7BAED /* Controller */,
+				AB0F5E051EDEB03A00F7BAED /* Views */,
+				AB0F5E061EDEB03A00F7BAED /* Models */,
 				AB0F5DDE1EDEAF0600F7BAED /* AppDelegate.swift */,
-				AB0F5DE01EDEAF0600F7BAED /* ViewController.swift */,
-				AB0F5DE21EDEAF0600F7BAED /* Main.storyboard */,
 				AB0F5DE51EDEAF0600F7BAED /* Assets.xcassets */,
 				AB0F5DE71EDEAF0600F7BAED /* LaunchScreen.storyboard */,
+				AB0F5DE21EDEAF0600F7BAED /* Main.storyboard */,
 				AB0F5DEA1EDEAF0600F7BAED /* Info.plist */,
 			);
 			path = OfficeAppTest;
@@ -94,6 +108,34 @@
 				AB0F5DF51EDEAF0600F7BAED /* Info.plist */,
 			);
 			path = OfficeAppTestTests;
+			sourceTree = "<group>";
+		};
+		AB0F5E041EDEB03A00F7BAED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		AB0F5E051EDEB03A00F7BAED /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F5DE01EDEAF0600F7BAED /* ViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		AB0F5E061EDEB03A00F7BAED /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AB0F5E071EDEB0A400F7BAED /* logInVC.swift */,
+				AB0F5E081EDEB0A400F7BAED /* logInVC.xib */,
+				AB0F5E0B1EDEB0C800F7BAED /* signUpVC.swift */,
+				AB0F5E0C1EDEB0C800F7BAED /* signUpVC.xib */,
+				AB0F5E0F1EDEB0EB00F7BAED /* homePageVC.swift */,
+				AB0F5E101EDEB0EB00F7BAED /* homePageVC.xib */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,8 +223,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0F5E121EDEB0EB00F7BAED /* homePageVC.xib in Resources */,
 				AB0F5DE91EDEAF0600F7BAED /* LaunchScreen.storyboard in Resources */,
 				AB0F5DE61EDEAF0600F7BAED /* Assets.xcassets in Resources */,
+				AB0F5E0A1EDEB0A400F7BAED /* logInVC.xib in Resources */,
+				AB0F5E0E1EDEB0C800F7BAED /* signUpVC.xib in Resources */,
 				AB0F5DE41EDEAF0600F7BAED /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -201,6 +246,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB0F5E111EDEB0EB00F7BAED /* homePageVC.swift in Sources */,
+				AB0F5E0D1EDEB0C800F7BAED /* signUpVC.swift in Sources */,
+				AB0F5E091EDEB0A400F7BAED /* logInVC.swift in Sources */,
 				AB0F5DE11EDEAF0600F7BAED /* ViewController.swift in Sources */,
 				AB0F5DDF1EDEAF0600F7BAED /* AppDelegate.swift in Sources */,
 			);
